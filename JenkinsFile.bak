@@ -18,6 +18,6 @@ pipeline {
 				// junit 'target/surefire-reports/*.xml'
 			}
 		}//end of test
-
+	
 	}//end stages
-}//end pipeline test
+}//end pipeline
