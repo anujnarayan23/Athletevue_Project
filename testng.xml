@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Athletevue_Automation">
+    
+    <groups>
+    
+       <run>
+           <include name="Regression">
+           
+           </include>
+       </run>
+    </groups>
+    
+    <classes>
+    
+    
+     <!--  <class name="Athletevue.HomePage"/> >-->     
+       <class name="Athletevue.CountryTest"/>
+      
+       <class name="Athletevue.StateTest"/>  
+      <!-- <class name="Athletevue.TestCity"/> --> 
+      <!-- <class name="Athletevue.TestSkills"/> --> 
+      <!-- <class name="Athletevue.TestSport"/> --> 
+      <!-- <class name="Athletevue.TestUser"/> --> 
+       <!--<class name="Athletevue.Templates"/> --> 
+          
+         
+         
+    </classes>
+    
+    
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
